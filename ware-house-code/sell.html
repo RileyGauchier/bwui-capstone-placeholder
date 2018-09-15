@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WareHouse</title>
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/sell.css">
+
+  <!-- Fonts -->
+
+  <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i|Kreon:300,400,700" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+
+    <header role-"banner">
+      <div class="image-container" role="img" aria-label="Warehouse Logo">
+        <a href="index.html"><img src="resources/img/home.png" class="logo--background" alt="WareHouse logo"></a>
+      </div>
+      <div class="search-bar" role="search">
+        <input type="text" name="search" placeholder="Search for items">
+        <a href="#" class="icon" aria-label="Search Button"><img src="resources/img/search.svg"></a>
+      </div>
+      <a href="cart.html" class="button cart" aria-label="My Cart">Cart <img src="resources/img/cart.svg"></a>
+    </header>
+    <nav role="navigation" aria-label="Main Navigation">
+      <a href="deals.html">Today's Deals</a>
+      <a href="products.html">All Products</a>
+      <a href="about.html">About Us</a>
+      <a href="sell.html">Sell</a>
+      <a href="error.html">Help</a>
+    </nav>
+
+    <!-- Sell Product Form -->
+
+    <main id="main" class="sell" role="main" aria-labelledby="Sell to Us">
+      <h1 role="heading">Sell</h1>
+      <form role="form">
+        <div id="name" class="field">
+          <label for="name">Product Name</label>
+          <input type="text" name="name" placeholder="Name of product">
+        </div>
+        <div id="price" class="field">
+          <label for="price">Price</label>
+          <input type="number" name="price">
+        </div>
+        <div id="quantity" class="field">
+          <label for="quantity">Quantity</label>
+          <select name="quantity">
+            <option value="100"><100</option>
+            <option value="200">100-200</option>
+            <option value="300">200-300</option>
+            <option value="400">300-400</option>
+            <option value="500">>500</option>
+          </select>
+        </div>
+        <div id="description" class="field">
+          <label for="description">Description</label>
+          <textarea type="text" name="description" placeholder="Description of product"></textarea>
+        </div>
+        <a href="error.html" class="button" id="submit">Submit</a>
+      </form>
+    </main>
+
+    <!-- Footer -->
+
+    <footer role="contentinfo">
+      <img src="resources/img/home.png" alt="warehouse logo">
+      <div class="links">
+        <h4>Get to know us</h4>
+        <a href="about.html">About us</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="error.html">Investor relations</a>
+        <a href="error.html">Reviews</a>
+      </div>
+      <div class="links">
+        <h4>Make money with us</h4>
+        <a href="sell.html">Sell on WareHouse</a>
+        <a href="error.html">Become a vendor</a>
+        <a href="error.html">Fundraiser events</a>
+        <a href="error.html">Community outreach</a>
+      </div>
+      <div class="links">
+        <h4>Help</h4>
+        <a href="error.html">Contact us</a>
+        <a href="error.html">Conditions of use</a>
+        <a href="error.html">Report a problem</a>
+        <a href="error.html">Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
